@@ -6,7 +6,10 @@
 }
 
 body {
-  background-color: rgb(33, 34, 45);
+  background-image: url(main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .main {
@@ -204,7 +207,7 @@ h1 {
   font-size: 22px;
   font-weight: 650;
   color: rgb(23, 24, 33);
-  background-color: rgb(68, 168, 239);
+  background-color: rgb(47, 79, 222);
 }
 
 .head {

@@ -6,7 +6,10 @@
 }
 
 body {
-  background-color: rgb(23, 24, 33);
+  background-image: url(main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container {

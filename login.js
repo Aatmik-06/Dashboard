@@ -1,20 +1,18 @@
-document.getElementById("login").addEventListener("click",add);
+document.getElementById("login").addEventListener("click", data);
+function data(e) {
+  e.preventDefault();
 
-function add(e){
-    let username1 = "Aadi";
-    let password1 = "Aadi@2005";
-    let username = document.getElementById("username").value;
-    let password = document.getElementById("password").value;
+  let username = document.getElementById("username").value;
+  let password = document.getElementById("password").value;
 
-    localStorage.setItem("username1");
-    localStorage.setItem("password1");
-    let storedusername = localStorage.getItem("username1");
-    let storedpassword = localStorage.getItem("password1");
+  let storedusername = localStorage.getItem("username");
+  let storedpassword = localStorage.getItem("password");
 
-    if (username === storedusername && password === storedpassword) {
-        alert(`Login Successful , welcome ${storedusername}`);
-        window.location.href = "dashboard.html";
-      } else {
-        alert("Incorrect details");
-      }
+  if (username === storedusername && password === storedpassword) {
+    alert(`Login Successful , welcome ${storedusername}`);
+    window.location.href = "index.html";
+  } else {
+    alert("Incorrect details");
+  }
 }
+

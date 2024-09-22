@@ -59,6 +59,16 @@
       "Contact": "7845784512",
       "Email": "asas@gmail.com",
       "Address": "Bhopal"
+    },
+    {
+      "Id": "112",
+      "Name": "Safal",
+      "Designation": "Developer",
+      "Salary": "80000",
+      "Contact": "7845784124",
+      "Email": "safal@gmail.com",
+      "Address": "Bhopal",
+      "id": "73da"
     }
   ]
 }

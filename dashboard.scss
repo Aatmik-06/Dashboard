@@ -6,7 +6,10 @@ $fontcolor:rgb(78,79,85);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 body{
-    background-color: rgb(33,34,45);
+    background-image: url(main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .main{
     display: flex;
@@ -202,17 +205,42 @@ body{
     }
     .d2{
         @extend.d1;
-        background-color: rgb(57,148,218);
+        background-color: rgb(39, 166, 149);
         gap: 50px
     }
     .d3{
         @extend.d1;
-        background-color: rgb(68,179,159);
-        gap: 75px;
+        background-color: rgb(9,15,43);
     }
     .d4{
         @extend.d1;
-        background-color: rgb(237,136,92);
-        gap: 120px;
+        background-color: rgb(9,15,43);
+        
+    }
+}
+.dashboardimg{
+    .dashboardimgitems{
+        display: flex;
+    }
+    margin-left: 320px;
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(190, 190, 190);
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+    width: 1120px;
+    background-color: rgb(10, 23, 81);
+    justify-content: space-around;
+    div{
+        margin-top: 25px;
+        gap: 80px;
+    }
+    img{
+        margin-top: 15px;
+    }
+    hr{
+        margin-top: 10px;
+        height: 130px;
     }
 }
