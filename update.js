@@ -208,6 +208,7 @@
     let mytable = `
        <table>
          <tr>
+      <h1>Update Data</h1>
       <th>Id</th>
       <th>Name</th>
       <th>Designation</th>

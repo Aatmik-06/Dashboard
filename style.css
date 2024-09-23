@@ -74,7 +74,7 @@ body {
   font-size: 22px;
   font-weight: 600;
   transition: all 0.5s;
-  color: rgb(78, 79, 85);
+  color: rgb(147, 145, 156);
   background-color: rgb(23, 24, 33);
   border-radius: 8px;
   padding: 10px;
@@ -84,11 +84,11 @@ body {
   padding-right: 10px;
   transition: all 0.5s;
   border-radius: 8px;
-  color: rgb(78, 79, 85);
+  color: rgb(147, 145, 156);
   background-color: rgb(23, 24, 33);
 }
 .sidepanel .sidepanelitems div a button a {
-  color: rgb(78, 79, 85);
+  color: rgb(147, 145, 156);
   text-decoration: none;
 }
 .sidepanel .sidepanelitems div button {
@@ -100,7 +100,7 @@ body {
   font-size: 22px;
   font-weight: 600;
   transition: all 0.5s;
-  color: rgb(78, 79, 85);
+  color: rgb(147, 145, 156);
   background-color: rgb(23, 24, 33);
   border-radius: 8px;
   padding: 10px;
@@ -110,11 +110,11 @@ body {
   padding-right: 10px;
   transition: all 0.5s;
   border-radius: 8px;
-  color: rgb(78, 79, 85);
+  color: rgb(147, 145, 156);
   background-color: rgb(23, 24, 33);
 }
 .sidepanel .sidepanelitems div button a {
-  color: rgb(78, 79, 85);
+  color: rgb(147, 145, 156);
   text-decoration: none;
 }
 .sidepanel .sidepanelitems div button:hover {
@@ -172,7 +172,7 @@ body {
 }
 .navbar #user {
   margin-right: 40px;
-  color: rgb(68, 168, 239);
+  color: rgb(47, 79, 222);
 }
 
 h1 {
@@ -215,6 +215,6 @@ h1 {
   height: fit-content;
   margin-left: 290px;
   margin-top: 80px;
-  color: rgb(132, 135, 152);
+  color: rgb(147, 145, 156);
   align-items: center;
 }/*# sourceMappingURL=style.css.map */

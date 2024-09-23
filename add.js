@@ -14,6 +14,16 @@ async function insert(){
     let myEmail =document.getElementById("email").value;
     let myAddress =document.getElementById("address").value;
 
+
+    if ( myId === "" || 
+      myName === "" || 
+      myDesignation === "" ||
+      mySalary === "" ||
+      myContact === "" || 
+      myAddress === ""
+    ){
+      alert("All fields are mandatory");
+    }else{
     let url  = 'http://localhost:3000/employees';
 
     let response = await fetch(url,{
@@ -35,10 +45,13 @@ async function insert(){
     let data = await response.json();
     console.log(data);
     alert('Data Successfully added')
-
+  }
   }catch(error){
     console.error("Error:",error);
     alert('Error while adding data')
   }
+  
 }
+
+
 
