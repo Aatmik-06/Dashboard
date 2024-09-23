@@ -134,7 +134,7 @@ body {
 .navbar {
   position: fixed;
   background-color: rgb(23, 24, 33);
-  height: 85px;
+  height: 89px;
   width: 100%;
   display: flex;
   flex-direction: row;
